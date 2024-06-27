@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	double a, b;
+	printf("é¿êî1:");
+	scanf("%lf", &a);
+	printf("é¿êî2:");
+	scanf("%lf", &b);
+	printf("òa=%lf\n", a + b);
+	printf("ç∑=&lf\n", a - b);
+	printf("êœ=%lf\n", a * b);
+	printf("è§=%lf\n", a / b);
+}

@@ -1,0 +1,17 @@
+#include<stdio.h>
+main()
+{
+	float i, j;
+	printf("é¿êî1:");
+	scanf("%f", &i);
+	printf("é¿êî2:");
+	scanf("%f", &j);
+	if (i < j)
+	{
+		printf("ëÂÇ´Ç¢ÇŸÇ§ÇÕ%f\n", j);
+	}
+	else
+	{
+		printf("ëÂÇ´Ç¢ÇŸÇ§ÇÕ%f\n", i);
+	}
+}
